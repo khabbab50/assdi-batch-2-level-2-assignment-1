@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!------------------------------------- meta start ------------------------------------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Khabbab Hossen">
+    <!------------------------------------- meta end ------------------------------------->
+    <!------------------------------------- title start ------------------------------------->
+    <title>Assignment-1 (Tailwind CSS)</title>
+    <!------------------------------------- title end ------------------------------------->
+    <!------------------------------------- favicon start ------------------------------------->
+    <link rel="shortcut icon" href="../images/facicon.ico" type="image/x-icon">
+    <!------------------------------------- favicon end ------------------------------------->
+    <!------------------------------------- css link start --------------------------------->
+    <link rel="stylesheet" href="./assets/index-DEBHp03m.css">
+    <!------------------------------------- css link end --------------------------------->
+    <!------------------------------------- google font start --------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!------------------------------------- google font end --------------------------------->
+</head>
+
+<body class="font-k-font">
+    <!------------------------------------- header start --------------------------------->
+    <header class="border-b">
+        <!-- top bur start -->
+        <section class="bg-k-font-color text-white">
+            <div
+                class="container mx-auto px-2 py-3 sm:px-0 flex flex-col md:flex-row justify-between items-center text-sm opacity-70">
+                <div>
+                    <p>Free shipping on all orders over $50</p>
+                </div>
+                <div class="flex gap-4">
+                    <select name="lang" class="bg-k-font-color">
+                        <option value="eng">Eng</option>
+                        <option value="ben">Ben</option>
+                        <option value="hin">Hin</option>
+                    </select>
+                    <p>Faqs</p>
+                    <p><i class="fa-solid fa-circle-exclamation"></i> Need Help</p>
+                </div>
+            </div>
+        </section>
+        <!-- top bur end -->
+        <!-- medel bur start -->
+        <section class="bg-k-gray-color">
+            <div
+                class="container mx-auto px-2 md:px-0 py-3 flex flex-col gap-4 md:flex-row justify-between items-center">
+                <a href="index.html" class="flex gap-2 items-center font-bold">
+                    <img src="../images/Logo-Icon.png" alt="Logo-Icon" class="shrink-0">
+                    <span class="text-2xl">Comforty</span>
+                </a>
+                <div class="flex relative w-full text-lg py-2 pl-2 pr-10 rounded-md bg-white md:w-1/3">
+                    <input type="text" placeholder="Search here..." class="w-full outline-none">
+                    <i class="fa-solid fa-magnifying-glass absolute top-1/3 right-3"></i>
+                </div>
+                <div class="text-lg flex justify-center  items-center gap-3">
+                    <div class="flex justify-center items-center gap-3 bg-white py-3 px-4 rounded-lg">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>Cart</p>
+                        <span
+                            class="w-5 h-5 flex justify-center items-center rounded-full bg-k-blue-color text-white text-xs">2</span>
+                    </div>
+                    <i class="fa-regular fa-heart  bg-white py-3 px-4 rounded-lg"></i>
+                    <i class="fa-regular fa-user  bg-white py-3 px-4 rounded-lg"></i>
+                </div>
+            </div>
+        </section>
+        <!-- medel bur end -->
+        <!-- main menu bur stat -->
+        <nav
+            class="container mx-auto px-2 md:px-0 py-3 flex gap-8  md:gap-0 justify-between items-center text-k-font-color-primary text-sm font-medium relative">
+            <i class="fa-solid fa-bars text-lg text-k-blue-color cursor-pointer visible md:invisible"
+                id="mobilIcon"></i>
+            <ul class="flex flex-col md:flex-row justify-center items-center gap-8 absolute top-11 left-0 w-full bg-k-gray-color md:bg-transparent md:static md:justify-start invisible md:visible py-5 md:py-0 z-10"
+                id="mainMenu">
+                <li class="py-4 px-6 border rounded-md flex items-center gap-1 ">
+                    <i class="fa-solid fa-bars text-lg text-k-blue-color"></i>
+                    <select name="mainMenu" id="allCatagori"
+                        class="appearance-none outline-none cursor-pointer text-k-blue-color font-bold bg-transparent">
+                        <option value="allCatagori"> All
+                            Categories
+                        </option>
+                        <option>Home</option>
+                        <option>Shop</option>
+                        <option>Product</option>
+                        <option>Pages</option>
+                        <option>About</option>
+                    </select>
+                </li>
+                <li class="font-bold"> <a class="hover:text-k-blue-color transition duration-200"
+                        href="./index.html">Home</a>
+                </li>
+                <li class="font-bold"> <a class="hover:text-k-blue-color transition duration-200" href="#">Shop</a>
+                </li>
+                <li class="font-bold"> <a class="hover:text-k-blue-color transition duration-200" href="#">Product</a>
+                </li>
+                <li class="font-bold"> <a class="hover:text-k-blue-color transition duration-200" href="#">Pages</a>
+                </li>
+                <li class="font-bold"> <a class="hover:text-k-blue-color transition duration-200" href="#">About</a>
+                </li>
+            </ul>
+            <p class="md:w-full text-right">Contact: <span class="text-k-font-color font-bold">(808) 555-0111</span></p>
+        </nav>
+        <!-- main menu bur end -->
+    </header>
+    <!------------------------------------- header end --------------------------------->
+    <!------------------------------------- main section start --------------------------------->
+    <main class="">
+        <!-- title section start -->
+        <section class="2xl:xl:mx-56 md:mx-5 bg-k-gray-color rounded-b-3xl relative mb-20">
+            <div class="container mx-auto py-10">
+                <div class="text-sm text-k-font-color-secondary flex gap-2 items-center mb-3">
+                    <a href="../index.html">Home</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a class="text-k-font-color" href="./singIn.html">Sing In</a>
+                </div>
+                <h1 class="text-2xl font-semibold">Sing In</h1>
+            </div>
+        </section>
+        <!-- title section end -->
+        <!-- form start  -->
+        <section class="flex justify-center items-center my-20">
+            <div class="w-full md:w-1/3 p-10 shadow-2xl rounded-xl text-center">
+                <h1 class="text-4xl font-semibold mb-5">Sign In</h1>
+                <form class="">
+                    <div>
+                        <input type="text" placeholder="Email"
+                            class="w-full px-5 py-3 bg-k-gray-color text-base rounded-lg text-k-font-color outline-none border-none mb-3">
+                        <div
+                            class="w-full px-5 py-3 bg-k-gray-color text-base rounded-lg text-k-font-color flex justify-between items-center mb-3">
+                            <input type="password" placeholder="Password"
+                                class="bg-transparent outline-none border-none">
+                            <i class="fa-regular fa-eye cursor-pointer"></i>
+                        </div>
+                        <div class="flex justify-between items-center text-sm">
+                            <div class="flex gap-2 items-center text-k-font-color-secondary">
+                                <input type="checkbox">
+                                <p>Remember me</p>
+                            </div>
+                            <a class="text-k-blue-color hover:underline" href="#">Forget Password</a>
+                        </div>
+                    </div>
+                    <button class="w-full my-5 bg-k-sky-color py-3 px-6 rounded-lg text-white font-semibold text-base">
+                        Sign In <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <p class="text-sm text-k-font-color">Don’t have account? <a
+                            class="text-k-blue-color hover:underline" href="#">Sign
+                            Up</a></p>
+                </form>
+            </div>
+        </section>
+        <!-- form end -->
+    </main>
+    <!------------------------------------- main section end --------------------------------->
+    <!------------------------------------- footer start ------------------------------------>
+    <footer class="text-base p-2">
+        <div class="py-10 border-y">
+            <div class="container mx-auto text-center md:text-left">
+                <div class="flex flex-col md:flex-row md:justify-between gap-10">
+                    <div class="md:w-1/3">
+                        <a href="index.html" class="flex gap-2 items-center justify-center md:justify-start font-bold">
+                            <img src="../images/Logo-Icon.png" alt="Logo-Icon" class="shrink-0">
+                            <span class="text-2xl">Comforty</span>
+                        </a>
+                        <p class="my-5 text-base text-k-font-color-secondary">
+                            Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum.
+                            Cras egestas purus
+                        </p>
+                        <div class="text-2xl flex gap-1 justify-center md:justify-start text-k-font-color-secondary">
+                            <i
+                                class="fa-brands fa-facebook hover:text-k-blue-color border-2 border-white hover:border-k-blue-color p-3 rounded-full cursor-pointer"></i>
+                            <i
+                                class="fa-brands fa-twitter hover:text-k-blue-color border-2 border-white hover:border-k-blue-color p-3 rounded-full cursor-pointer"></i>
+                            <i
+                                class="fa-brands fa-instagram hover:text-k-blue-color border-2 border-white hover:border-k-blue-color p-3 rounded-full cursor-pointer"></i>
+                            <i
+                                class="fa-brands fa-pinterest hover:text-k-blue-color border-2 border-white hover:border-k-blue-color p-3 rounded-full cursor-pointer"></i>
+                            <i
+                                class="fa-brands fa-youtube hover:text-k-blue-color border-2 border-white hover:border-k-blue-color p-3 rounded-full cursor-pointer"></i>
+                        </div>
+                    </div>
+                    <div class="text-k-font-color">
+                        <h3 class="text-k-font-color-secondary mb-2">Category</h3>
+                        <ul>
+                            <li><a class="hover:text-k-blue-color hover:underline" href="#">Sofa</a></li>
+                            <li><a class="hover:text-k-blue-color hover:underline" href="#">Armchair</a></li>
+                            <li><a class="hover:text-k-blue-color hover:underline" href="#">Wing Chair</a></li>
+                            <li><a class="hover:text-k-blue-color hover:underline" href="#">Desk Chair</a></li>
+                            <li><a class="hover:text-k-blue-color hover:underline" href="#">wooden Chair</a></li>
+                            <li><a class="hover:text-k-blue-color hover:underline" href="#">Park Bench</a></li>
+                        </ul>
+                    </div>
+                    <div class="text-k-font-color">
+                        <h3 class="text-k-font-color-secondary mb-2">Support</h3>
+                        <ul>
+                            <li><a class="hover:text-k-blue-color hover:underline" href="#">Help & Support</a></li>
+                            <li><a class="hover:text-k-blue-color hover:underline" href="#">Tearms & Conditions</a></li>
+                            <li><a class="hover:text-k-blue-color hover:underline" href="#">Privacy Policy</a></li>
+                            <li><a class="hover:text-k-blue-color hover:underline" href="#">Help</a></li>
+                        </ul>
+                    </div>
+                    <div class="md:w-1/3">
+                        <h3 class="text-k-font-color-secondary mb-2">Newsletter</h3>
+                        <div class="mb-3">
+                            <input
+                                class="inline outline-none border px-5 py-3 rounded-lg text-k-blue-color w-full md:w-2/3"
+                                type="text" placeholder="Your email">
+                            <button
+                                class="mt-5 bg-k-sky-color py-3 px-6 rounded-lg text-white font-semibold text-base">Subscribe
+                            </button>
+                        </div>
+                        <p class="text-k-font-color-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nullam tincidunt erat enim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center py-5">
+            <p class="text-k-font-color-secondary">&copy; 2021 - Blogy - Designed & Develop by <span
+                    class="text-k-font-color">Zakirsoft</span>
+            </p>
+            <img src="../images/Group13.jpg" alt="image">
+        </div>
+    </footer>
+    <!------------------------------------- footer end -------------------------------------->
+
+
+
+
+    <!-- font awesome start-->
+    <script src="https://kit.fontawesome.com/bc02ba23a8.js" crossorigin="anonymous"></script>
+    <!-- font awesome end-->
+    <!-- jaVaScript added start -->
+    <script src="../script.js"></script>
+    <!-- jaVaScript added end -->
+</body>
+
+</html>
